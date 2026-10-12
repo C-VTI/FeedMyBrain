@@ -16,6 +16,3 @@ dist/
 build/
 .venv/
 __pycache__/
-
-# Schulmaterial (urheberrechtlich geschützt)
-material/

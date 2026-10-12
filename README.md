@@ -19,7 +19,8 @@ Der erste Meilenstein ist eine **Prüfungsvorbereitung** für eine konkrete anst
 ```
 FeedMyBrain/
 ├── README.md
-└── docs/          # Anforderungen, Konzepte (folgt)
+├── docs/          # Anforderungen, Materialanalyse
+└── material/      # Lernmaterial der Schule (Fotos, PDF)
 ```
 
 ## Tech-Stack
