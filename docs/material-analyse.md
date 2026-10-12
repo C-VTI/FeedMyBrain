@@ -9,7 +9,7 @@ Analysiert: 2026-10-12
 |---|-------|--------|--------|-----|
 | T1 | Vokabeln „La nourriture / la cuisine“ | Vokabeln.html | ~100 Wörter | Vokabeln |
 | T2 | Vokabeln „La chambre / le sommeil“ | Vokabeln.html | ~31 Wörter | Vokabeln |
-| T3 | Unregelmäßige Verben im Präsens | Foto 15.45.10 (S. 122) | 37 Verben × 6 Formen | Konjugation |
+| T3 | Unregelmäßige Verben im Präsens | Foto 15.45.10 (S. 122) | 34 Verben (32 × 6 Formen + il faut, il pleut) | Konjugation |
 | T4 | Steigerung des Adjektivs (comparatif, superlatif) | Fotos 15.46.09, 15.46.28 | Regeln + 18 Übungssätze | Grammatik |
 | T5 | Bildung der Adverbien (-ment, -amment/-emment, unregelmäßige Formen) | Fotos 15.46.48, 15.47.09, 15.47.19 | ~20 Beispiele | Grammatik |
 | T6 | Funktion und Stellung der Adverbien | Fotos 15.47.53, 15.48.09, 15.48.26, 15.48.36 | Regeln, Entscheidungsbaum, 30 Übungssätze | Grammatik |

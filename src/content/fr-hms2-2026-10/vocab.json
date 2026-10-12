@@ -1,0 +1,788 @@
+[
+ {
+  "id": "v001",
+  "unit": "v-food-1",
+  "fr": "la nourriture",
+  "de": "Nahrung"
+ },
+ {
+  "id": "v002",
+  "unit": "v-food-1",
+  "fr": "la viande",
+  "de": "Fleisch"
+ },
+ {
+  "id": "v003",
+  "unit": "v-food-1",
+  "fr": "le jambon",
+  "de": "Schinken"
+ },
+ {
+  "id": "v004",
+  "unit": "v-food-1",
+  "fr": "le poisson",
+  "de": "Fisch"
+ },
+ {
+  "id": "v005",
+  "unit": "v-food-1",
+  "fr": "le légume",
+  "de": "Gemüse"
+ },
+ {
+  "id": "v006",
+  "unit": "v-food-1",
+  "fr": "la margarine",
+  "de": "Margarine"
+ },
+ {
+  "id": "v007",
+  "unit": "v-food-1",
+  "fr": "le beurre",
+  "de": "Butter"
+ },
+ {
+  "id": "v008",
+  "unit": "v-food-1",
+  "fr": "le fromage",
+  "de": "Käse"
+ },
+ {
+  "id": "v009",
+  "unit": "v-food-1",
+  "fr": "le pain",
+  "de": "Brot"
+ },
+ {
+  "id": "v010",
+  "unit": "v-food-1",
+  "fr": "la baguette",
+  "de": "Baguette"
+ },
+ {
+  "id": "v011",
+  "unit": "v-food-1",
+  "fr": "le sucre",
+  "de": "Zucker"
+ },
+ {
+  "id": "v012",
+  "unit": "v-food-1",
+  "fr": "le sel",
+  "de": "Salz"
+ },
+ {
+  "id": "v013",
+  "unit": "v-food-1",
+  "fr": "cuisiner (qc.)",
+  "de": "(etw.) kochen"
+ },
+ {
+  "id": "v014",
+  "unit": "v-food-1",
+  "fr": "éplucher qc.",
+  "de": "etw. schälen"
+ },
+ {
+  "id": "v015",
+  "unit": "v-food-1",
+  "fr": "émincer qc.",
+  "de": "etw. dünn aufschneiden"
+ },
+ {
+  "id": "v016",
+  "unit": "v-food-1",
+  "fr": "couper qc.",
+  "de": "etw. schneiden"
+ },
+ {
+  "id": "v017",
+  "unit": "v-food-1",
+  "fr": "mélanger qc.",
+  "de": "etw. (ver)mischen"
+ },
+ {
+  "id": "v018",
+  "unit": "v-food-1",
+  "fr": "enfourner qc.",
+  "de": "etw. in den (Back)ofen schieben"
+ },
+ {
+  "id": "v019",
+  "unit": "v-food-1",
+  "fr": "battre qc./qn.",
+  "de": "etw./jdn. schlagen"
+ },
+ {
+  "id": "v020",
+  "unit": "v-food-1",
+  "fr": "ajouter qc. (à qc.)",
+  "de": "etw. (zu etw.) hinzufügen"
+ },
+ {
+  "id": "v021",
+  "unit": "v-food-1",
+  "fr": "faire chauffer qc.",
+  "de": "etw. erwärmen, erhitzen"
+ },
+ {
+  "id": "v022",
+  "unit": "v-food-1",
+  "fr": "mijoter",
+  "de": "köcheln"
+ },
+ {
+  "id": "v023",
+  "unit": "v-food-1",
+  "fr": "la marmite",
+  "de": "(Koch)topf"
+ },
+ {
+  "id": "v024",
+  "unit": "v-food-1",
+  "fr": "la cocotte",
+  "de": "Topf"
+ },
+ {
+  "id": "v025",
+  "unit": "v-food-1",
+  "fr": "la poêle",
+  "de": "(Brat)pfanne"
+ },
+ {
+  "id": "v026",
+  "unit": "v-food-2",
+  "fr": "bouillir",
+  "de": "kochen"
+ },
+ {
+  "id": "v027",
+  "unit": "v-food-2",
+  "fr": "prêt, e",
+  "de": "bereit, fertig"
+ },
+ {
+  "id": "v028",
+  "unit": "v-food-2",
+  "fr": "goûter qc.",
+  "de": "etw. probieren"
+ },
+ {
+  "id": "v029",
+  "unit": "v-food-2",
+  "fr": "la confiture",
+  "de": "Marmelade"
+ },
+ {
+  "id": "v030",
+  "unit": "v-food-2",
+  "fr": "le miel",
+  "de": "Honig"
+ },
+ {
+  "id": "v031",
+  "unit": "v-food-2",
+  "fr": "l'œuf (m)",
+  "de": "Ei"
+ },
+ {
+  "id": "v032",
+  "unit": "v-food-2",
+  "fr": "les pâtes (f.)",
+  "de": "Nudeln, Teigwaren"
+ },
+ {
+  "id": "v033",
+  "unit": "v-food-2",
+  "fr": "le bœuf",
+  "de": "Rindfleisch"
+ },
+ {
+  "id": "v034",
+  "unit": "v-food-2",
+  "fr": "le porc",
+  "de": "Schweinefleisch"
+ },
+ {
+  "id": "v035",
+  "unit": "v-food-2",
+  "fr": "le veau",
+  "de": "Kalb(fleisch)"
+ },
+ {
+  "id": "v036",
+  "unit": "v-food-2",
+  "fr": "la saucisse",
+  "de": "Wurst"
+ },
+ {
+  "id": "v037",
+  "unit": "v-food-2",
+  "fr": "les herbes (f.)",
+  "de": "Kräuter"
+ },
+ {
+  "id": "v038",
+  "unit": "v-food-2",
+  "fr": "la merguez",
+  "de": "scharf gewürzte Bratwurst aus Lammfleisch"
+ },
+ {
+  "id": "v039",
+  "unit": "v-food-2",
+  "fr": "le poulet",
+  "de": "Huhn"
+ },
+ {
+  "id": "v040",
+  "unit": "v-food-2",
+  "fr": "la crème",
+  "de": "Sahne"
+ },
+ {
+  "id": "v041",
+  "unit": "v-food-2",
+  "fr": "l'huile (f.)",
+  "de": "Öl"
+ },
+ {
+  "id": "v042",
+  "unit": "v-food-2",
+  "fr": "le vinaigre",
+  "de": "Essig"
+ },
+ {
+  "id": "v043",
+  "unit": "v-food-2",
+  "fr": "le poivre",
+  "de": "Pfeffer"
+ },
+ {
+  "id": "v044",
+  "unit": "v-food-2",
+  "fr": "la brioche",
+  "de": "Brioche"
+ },
+ {
+  "id": "v045",
+  "unit": "v-food-2",
+  "fr": "le gâteau",
+  "de": "Kuchen; Torte"
+ },
+ {
+  "id": "v046",
+  "unit": "v-food-2",
+  "fr": "la tarte",
+  "de": "(Obst)kuchen"
+ },
+ {
+  "id": "v047",
+  "unit": "v-food-2",
+  "fr": "la viennoiserie",
+  "de": "Hefegebäck; Stückchen"
+ },
+ {
+  "id": "v048",
+  "unit": "v-food-2",
+  "fr": "les pâtisseries (f.)",
+  "de": "(Fein)gebäck, Backwaren"
+ },
+ {
+  "id": "v049",
+  "unit": "v-food-2",
+  "fr": "le repas",
+  "de": "Essen, Mahlzeit"
+ },
+ {
+  "id": "v050",
+  "unit": "v-food-2",
+  "fr": "la table",
+  "de": "Tisch"
+ },
+ {
+  "id": "v051",
+  "unit": "v-food-3",
+  "fr": "manger qc.",
+  "de": "etw. essen"
+ },
+ {
+  "id": "v052",
+  "unit": "v-food-3",
+  "fr": "s'asseoir",
+  "de": "sich (hin)setzen"
+ },
+ {
+  "id": "v053",
+  "unit": "v-food-3",
+  "fr": "la faim",
+  "de": "Hunger"
+ },
+ {
+  "id": "v054",
+  "unit": "v-food-3",
+  "fr": "la soif",
+  "de": "Durst"
+ },
+ {
+  "id": "v055",
+  "unit": "v-food-3",
+  "fr": "boire qc.",
+  "de": "etw. trinken"
+ },
+ {
+  "id": "v056",
+  "unit": "v-food-3",
+  "fr": "l'appétit (m)",
+  "de": "Appetit"
+ },
+ {
+  "id": "v057",
+  "unit": "v-food-3",
+  "fr": "la recette",
+  "de": "Rezept"
+ },
+ {
+  "id": "v058",
+  "unit": "v-food-3",
+  "fr": "le petit-déjeuner, les petits-déjeuners",
+  "de": "Frühstück"
+ },
+ {
+  "id": "v059",
+  "unit": "v-food-3",
+  "fr": "le déjeuner",
+  "de": "Mittagessen"
+ },
+ {
+  "id": "v060",
+  "unit": "v-food-3",
+  "fr": "la tartine",
+  "de": "Butterbrot"
+ },
+ {
+  "id": "v061",
+  "unit": "v-food-3",
+  "fr": "le goûter",
+  "de": "Vesper, kleiner Nachmittagsimbiss, Z'Vieri"
+ },
+ {
+  "id": "v062",
+  "unit": "v-food-3",
+  "fr": "le dîner",
+  "de": "Abendessen"
+ },
+ {
+  "id": "v063",
+  "unit": "v-food-3",
+  "fr": "dîner",
+  "de": "zu Abend essen"
+ },
+ {
+  "id": "v064",
+  "unit": "v-food-3",
+  "fr": "cuire (qc.)",
+  "de": "(etw.) braten"
+ },
+ {
+  "id": "v065",
+  "unit": "v-food-3",
+  "fr": "le plat",
+  "de": "Gericht"
+ },
+ {
+  "id": "v066",
+  "unit": "v-food-3",
+  "fr": "la glace",
+  "de": "Eis"
+ },
+ {
+  "id": "v067",
+  "unit": "v-food-3",
+  "fr": "les sucreries (f.)",
+  "de": "Süßigkeiten"
+ },
+ {
+  "id": "v068",
+  "unit": "v-food-3",
+  "fr": "la sucette",
+  "de": "(Dauer)lutscher"
+ },
+ {
+  "id": "v069",
+  "unit": "v-food-3",
+  "fr": "le bonbon",
+  "de": "Bonbon"
+ },
+ {
+  "id": "v070",
+  "unit": "v-food-3",
+  "fr": "le chocolat",
+  "de": "Schokolade"
+ },
+ {
+  "id": "v071",
+  "unit": "v-food-3",
+  "fr": "le croissant",
+  "de": "Croissant, (Butter)hörnchen"
+ },
+ {
+  "id": "v072",
+  "unit": "v-food-3",
+  "fr": "le fruit",
+  "de": "Frucht; Obstsorte"
+ },
+ {
+  "id": "v073",
+  "unit": "v-food-3",
+  "fr": "la pomme",
+  "de": "Apfel"
+ },
+ {
+  "id": "v074",
+  "unit": "v-food-3",
+  "fr": "la banane",
+  "de": "Banane"
+ },
+ {
+  "id": "v075",
+  "unit": "v-food-3",
+  "fr": "la fraise",
+  "de": "Erdbeere"
+ },
+ {
+  "id": "v076",
+  "unit": "v-food-4",
+  "fr": "le citron",
+  "de": "Zitrone"
+ },
+ {
+  "id": "v077",
+  "unit": "v-food-4",
+  "fr": "l'orange (f.)",
+  "de": "Orange, Apfelsine"
+ },
+ {
+  "id": "v078",
+  "unit": "v-food-4",
+  "fr": "la pomme de terre",
+  "de": "Kartoffel"
+ },
+ {
+  "id": "v079",
+  "unit": "v-food-4",
+  "fr": "la patate (fam)",
+  "de": "Kartoffel"
+ },
+ {
+  "id": "v080",
+  "unit": "v-food-4",
+  "fr": "la salade",
+  "de": "Salat"
+ },
+ {
+  "id": "v081",
+  "unit": "v-food-4",
+  "fr": "la tomate",
+  "de": "Tomate"
+ },
+ {
+  "id": "v082",
+  "unit": "v-food-4",
+  "fr": "la carotte",
+  "de": "Karotte, Möhre"
+ },
+ {
+  "id": "v083",
+  "unit": "v-food-4",
+  "fr": "la poire",
+  "de": "Birne"
+ },
+ {
+  "id": "v084",
+  "unit": "v-food-4",
+  "fr": "la framboise",
+  "de": "Himbeere"
+ },
+ {
+  "id": "v085",
+  "unit": "v-food-4",
+  "fr": "la cerise",
+  "de": "Kirsche"
+ },
+ {
+  "id": "v086",
+  "unit": "v-food-4",
+  "fr": "l'abricot (m.)",
+  "de": "Aprikose"
+ },
+ {
+  "id": "v087",
+  "unit": "v-food-4",
+  "fr": "la pêche",
+  "de": "Pfirsich"
+ },
+ {
+  "id": "v088",
+  "unit": "v-food-4",
+  "fr": "la prune",
+  "de": "Pflaume"
+ },
+ {
+  "id": "v089",
+  "unit": "v-food-4",
+  "fr": "la mandarine",
+  "de": "Mandarine"
+ },
+ {
+  "id": "v090",
+  "unit": "v-food-4",
+  "fr": "le kiwi",
+  "de": "Kiwi"
+ },
+ {
+  "id": "v091",
+  "unit": "v-food-4",
+  "fr": "l'ananas (m.)",
+  "de": "Ananas"
+ },
+ {
+  "id": "v092",
+  "unit": "v-food-4",
+  "fr": "le concombre",
+  "de": "Gurke"
+ },
+ {
+  "id": "v093",
+  "unit": "v-food-4",
+  "fr": "le chou",
+  "de": "Kohl"
+ },
+ {
+  "id": "v094",
+  "unit": "v-food-4",
+  "fr": "le haricot",
+  "de": "Bohne"
+ },
+ {
+  "id": "v095",
+  "unit": "v-food-4",
+  "fr": "les petits pois (m.)",
+  "de": "Erbsen"
+ },
+ {
+  "id": "v096",
+  "unit": "v-food-4",
+  "fr": "les lentilles (f.)",
+  "de": "Linsen"
+ },
+ {
+  "id": "v097",
+  "unit": "v-food-4",
+  "fr": "l'oignon (m.)",
+  "de": "Zwiebel"
+ },
+ {
+  "id": "v098",
+  "unit": "v-food-4",
+  "fr": "l'ail (m.)",
+  "de": "Knoblauch"
+ },
+ {
+  "id": "v099",
+  "unit": "v-food-4",
+  "fr": "le riz",
+  "de": "Reis"
+ },
+ {
+  "id": "v100",
+  "unit": "v-food-4",
+  "fr": "le lait",
+  "de": "Milch"
+ },
+ {
+  "id": "v101",
+  "unit": "v-room",
+  "fr": "la chambre (à coucher)",
+  "de": "(Schlaf)zimmer"
+ },
+ {
+  "id": "v102",
+  "unit": "v-room",
+  "fr": "le lit",
+  "de": "Bett"
+ },
+ {
+  "id": "v103",
+  "unit": "v-room",
+  "fr": "le drap",
+  "de": "Betttuch, Leintuch"
+ },
+ {
+  "id": "v104",
+  "unit": "v-room",
+  "fr": "la couverture",
+  "de": "(Bett)decke"
+ },
+ {
+  "id": "v105",
+  "unit": "v-room",
+  "fr": "se coucher",
+  "de": "ins Bett gehen, sich hinlegen"
+ },
+ {
+  "id": "v106",
+  "unit": "v-room",
+  "fr": "dormir",
+  "de": "schlafen"
+ },
+ {
+  "id": "v107",
+  "unit": "v-room",
+  "fr": "rêver (de qc.)",
+  "de": "(von etw.) träumen"
+ },
+ {
+  "id": "v108",
+  "unit": "v-room",
+  "fr": "le rêve",
+  "de": "Traum"
+ },
+ {
+  "id": "v109",
+  "unit": "v-room",
+  "fr": "le réveil",
+  "de": "Wecker"
+ },
+ {
+  "id": "v110",
+  "unit": "v-room",
+  "fr": "réveiller qn.",
+  "de": "jdn. (auf)wecken"
+ },
+ {
+  "id": "v111",
+  "unit": "v-room",
+  "fr": "se réveiller",
+  "de": "aufwachen"
+ },
+ {
+  "id": "v112",
+  "unit": "v-room",
+  "fr": "se lever",
+  "de": "aufstehen"
+ },
+ {
+  "id": "v113",
+  "unit": "v-room",
+  "fr": "bâiller",
+  "de": "gähnen"
+ },
+ {
+  "id": "v114",
+  "unit": "v-room",
+  "fr": "le cintre",
+  "de": "(Kleider)bügel"
+ },
+ {
+  "id": "v115",
+  "unit": "v-room",
+  "fr": "le matelas",
+  "de": "Matratze"
+ },
+ {
+  "id": "v116",
+  "unit": "v-room",
+  "fr": "la couette",
+  "de": "Duvet, Federbett"
+ },
+ {
+  "id": "v117",
+  "unit": "v-room",
+  "fr": "l'oreiller (m)",
+  "de": "Kopfkissen"
+ },
+ {
+  "id": "v118",
+  "unit": "v-room",
+  "fr": "le traversin",
+  "de": "Nackenrolle, Schlummerrolle"
+ },
+ {
+  "id": "v119",
+  "unit": "v-room",
+  "fr": "le coussin",
+  "de": "(Zier)Kissen"
+ },
+ {
+  "id": "v120",
+  "unit": "v-room",
+  "fr": "la table de nuit / la table de chevet",
+  "de": "Nachttisch"
+ },
+ {
+  "id": "v121",
+  "unit": "v-room",
+  "fr": "la lampe",
+  "de": "Lampe"
+ },
+ {
+  "id": "v122",
+  "unit": "v-room",
+  "fr": "l'ampoule (f)",
+  "de": "(Glüh)birne"
+ },
+ {
+  "id": "v123",
+  "unit": "v-room",
+  "fr": "l'armoire (f)",
+  "de": "Schrank"
+ },
+ {
+  "id": "v124",
+  "unit": "v-room",
+  "fr": "la commode",
+  "de": "Kommode"
+ },
+ {
+  "id": "v125",
+  "unit": "v-room",
+  "fr": "le tableau, les tableaux",
+  "de": "Bild, Gemälde"
+ },
+ {
+  "id": "v126",
+  "unit": "v-room",
+  "fr": "le cadre",
+  "de": "Rahmen"
+ },
+ {
+  "id": "v127",
+  "unit": "v-room",
+  "fr": "le poster",
+  "de": "Poster"
+ },
+ {
+  "id": "v128",
+  "unit": "v-room",
+  "fr": "s'allonger",
+  "de": "sich ausstrecken, sich hinlegen"
+ },
+ {
+  "id": "v129",
+  "unit": "v-room",
+  "fr": "couvrir qn./qc.",
+  "de": "jdn./etw. zudecken"
+ },
+ {
+  "id": "v130",
+  "unit": "v-room",
+  "fr": "s'endormir",
+  "de": "einschlafen"
+ },
+ {
+  "id": "v131",
+  "unit": "v-room",
+  "fr": "le sommeil",
+  "de": "Schlaf"
+ }
+]

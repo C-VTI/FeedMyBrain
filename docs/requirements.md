@@ -1,6 +1,6 @@
 # FeedMyBrain – Anforderungen
 
-Status: Entwurf (Requirement Engineering)
+Status: MVP umgesetzt (Release 1)
 Stand: 2026-10-12
 
 ## 1. Vision
@@ -103,7 +103,7 @@ Beispiel für die Prüfung am 23.10. mit freiem Donnerstag:
 
 ## 8. Offene Fragen
 
-1. Hosting: GitHub Pages oder Alternative (siehe Chat)
+1. Hosting online (GitHub Pages benötigt GitHub Pro; Alternative: Cloudflare Pages) – vorerst lokal
 
 ## 9. Entscheidungen
 
@@ -124,3 +124,4 @@ Beispiel für die Prüfung am 23.10. mit freiem Donnerstag:
 | 2026-10-12 | Donnerstag ist ein fester freier Tag; zusätzliche freie Tage per Jokertag, wenn der Plan es zulässt |
 | 2026-10-12 | Alle vorgeschlagenen Gamification-Elemente werden umgesetzt |
 | 2026-10-12 | Der 22.10. bleibt frei; die Probeprüfung findet am letzten Lerntag statt (21.10.) |
+| 2026-10-12 | Betrieb vorerst lokal (`npm run dev`, Port 5173). Tech-Stack: Vite + React + TypeScript |
