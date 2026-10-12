@@ -98,12 +98,13 @@ Beispiel für die Prüfung am 23.10. mit freiem Donnerstag:
 ## 7. Lernmaterial
 
 - Quelle: Fotos und PDFs der Lernziele und des Unterrichtsmaterials in `material/<datum>-<fach>/`
-- Das Material wird ins private Repo eingecheckt.
+- Das Material wurde ins Repo eingecheckt, als es noch privat war. Seit 12.10. ist das Repo öffentlich, siehe offene Punkte.
 - Analyse: [material-analyse.md](material-analyse.md)
 
-## 8. Offene Fragen
+## 8. Offene Punkte
 
-1. Hosting online (GitHub Pages benötigt GitHub Pro; Alternative: Cloudflare Pages) – vorerst lokal
+1. **Repo bereinigen:** `material/` (urheberrechtlich geschütztes Schulmaterial) und ggf. persönliche Angaben in `docs/` aus dem öffentlichen Repo **inkl. Git-Historie** entfernen (History-Rewrite + Force-Push). Erst nach erfolgreichem Test von GitHub Pages.
+2. **Lösungen prüfen:** Die selbst erarbeiteten Lösungen in `src/content/fr-hms2-2026-10/grammar.json` stichprobenartig kontrollieren (siehe [material-analyse.md](material-analyse.md), Kapitel „Umsetzung“).
 
 ## 9. Entscheidungen
 
@@ -124,4 +125,30 @@ Beispiel für die Prüfung am 23.10. mit freiem Donnerstag:
 | 2026-10-12 | Donnerstag ist ein fester freier Tag; zusätzliche freie Tage per Jokertag, wenn der Plan es zulässt |
 | 2026-10-12 | Alle vorgeschlagenen Gamification-Elemente werden umgesetzt |
 | 2026-10-12 | Der 22.10. bleibt frei; die Probeprüfung findet am letzten Lerntag statt (21.10.) |
-| 2026-10-12 | Betrieb vorerst lokal (`npm run dev`, Port 5173). Tech-Stack: Vite + React + TypeScript |
+| 2026-10-12 | Tech-Stack: Vite + React + TypeScript, statisch, ohne Server |
+| 2026-10-12 | Lokaler Betrieb mit `npm run dev` auf festem Port 5173 (localStorage hängt an der Adresse); Windows: `start-windows.bat` |
+| 2026-10-12 | Repo öffentlich gemacht; Hosting über **GitHub Pages** (kostenlos für öffentliche Repos): https://c-vti.github.io/FeedMyBrain/ |
+| 2026-10-12 | Deployment automatisch per GitHub Actions bei jedem Push auf `main` (Tests → Build → Pages) |
+| 2026-10-12 | Bereinigung von `material/` inkl. Historie erst später, nach erfolgreichem Pages-Test |
+
+## 10. Umsetzung Release 1 (Stand 12.10.2026)
+
+Festgelegte Regeln und Parameter (im Code unter `src/lib/`):
+
+| Bereich | Regel |
+|---------|-------|
+| Tageslektion | 4 Runden ≈ 30 Min.: zuerst neue Einheiten (je Einführung mit Erklärung), Rest gemischte Wiederholung |
+| Rundengröße | Einführung 12 Aufgaben (Vokabeln, + 1 Zuordnungsspiel) bzw. 14 (Grammatik); Wiederholung 15 Aufgaben + 1 Zuordnungsspiel |
+| Verteilung | Noch nicht eingeführte Einheiten werden gleichmäßig auf die verbleibenden Lerntage vor der Probeprüfung verteilt; verpasste Tage verteilen sich automatisch neu |
+| Joker | Nur wenn alle restlichen Einheiten mit max. 3 neuen pro Tag auf die verbleibenden Tage passen und mind. 2 Tage übrig sind; nicht am Probeprüfungstag und nicht nach Beginn der Tageslektion |
+| Streak | Zählt erledigte Lerntage in Folge; feste freie Tage und Joker unterbrechen nicht, ein verpasster Lerntag setzt auf 0 |
+| Übungsform | Neue Aufgaben (Box 0) zuerst als Multiple Choice, danach als Texteingabe |
+| Wiederholung | Leitner-Boxen 0–5: richtig +1, falsch −2, „fast richtig“ unverändert (min. 1). Falsche Aufgaben kommen in derselben Runde einmal wieder. Auswahl nach Priorität: zuletzt falsch, niedrige Box, lange nicht gesehen |
+| Bewertung Texteingabe | Groß/klein, Apostrophe, œ/oe und Satzzeichen am Ende egal; fehlende Akzente = „fast richtig“; fehlender/falscher Artikel wird angezeigt; Vokabeln mit gleichem deutschen Wort akzeptieren alle Varianten (z. B. Kartoffel → la pomme de terre / la patate); qc./qn. optional |
+| Meisterschaft | Aufgabe gilt ab 3× richtig in Folge (Box 3) als gemeistert; Kronen 0–5 pro Einheit; Prüfungsbereitschaft = 50 % Vokabeln + 50 % Grammatik |
+| XP & Level | 10 XP pro richtiger Antwort + Combo-Bonus bis +10, 5 XP bei „fast richtig“, +20 für fehlerfreie Runde, +50 für erledigte Tageslektion; Level n ab 75·n·(n−1) XP |
+| Probeprüfung | 30 Aufgaben (15 Vokabeln, 15 Grammatik über alle Themen), nur Eingabe, 25 Min., Auswertung am Ende mit Schweizer Note (1 + 5 · Anteil richtig, auf halbe Noten gerundet) |
+| Abzeichen | 15 Abzeichen (u. a. Streak 3/7, Combo 10/25, Themen gemeistert, Probeprüfung ≥ 4 bzw. ≥ 5.5) |
+| Speicherung | localStorage (`feedmybrain:v1`), gekapselt über `StorageAdapter`; Export/Import als JSON-Datei |
+| Test-Datum | Per URL simulierbar: `?today=JJJJ-MM-TT` |
+

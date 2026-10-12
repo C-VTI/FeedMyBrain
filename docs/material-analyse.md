@@ -62,3 +62,26 @@ aller, avoir, boire, connaître, courir, croire, devoir, dire, battre, écrire, 
 - **Kein Lernzielblatt** im Material. Die Themen sind aus den Unterlagen abgeleitet.
 - Abschnitte auf den Folien fehlen teilweise (abgeschnittene Titel), sind aber inhaltlich vollständig rekonstruierbar.
 - Bei „joli_ment“ und „vrai_ment“ ist eine Lücke für die Bildungsregel vorgesehen (Lösung: joliment, vraiment).
+
+## Umsetzung in Übungen (Release 1)
+
+| Thema | Einheit(en) | Aufgaben |
+|-------|-------------|----------|
+| T1 Vokabeln Essen & Kochen | v-food-1 … v-food-4 (je 25 Wörter) | 100 |
+| T2 Vokabeln Schlafzimmer | v-room | 31 |
+| T3 Unregelmäßige Verben | g-verbs-1 … 3 | 194 (32 Verben × 6 Personen + il faut, il pleut) |
+| T4 Steigerung Adjektiv | g-comp-adj | 33 (inkl. 17 Sätze vom Arbeitsblatt S. 28, 4 × Satz bauen) |
+| T5 Adverbien bilden | g-adv-form | 40 |
+| T6 Stellung der Adverbien | g-adv-place | 42 (29 Sätze aus der Übung + Folienbeispiele, Regelfragen, Satz bauen) |
+| T7 Adjektiv oder Adverb | g-adj-adv | 47 Lücken aus den 25 Sätzen |
+| T8 Steigerung Adverbien | g-comp-adv | 21 |
+
+**Annahmen und Abweichungen** (bitte stichprobenartig prüfen):
+
+- Superlativ-Übung Satz 12 („bon marché“ → „les meilleur marché“) weggelassen, weil die Form nicht eindeutig ist.
+- Adverb-Übung Satz 19 („Tu l'as pas fait?! (toujours)“) weggelassen, weil er umgangssprachlich ist (ohne „ne“).
+- Bei mehreren Adverb-Sätzen gelten zwei Positionen als richtig, z. B. enfin, évidemment, généralement, rapidement (Satzanfang bzw. nach dem Verb) sowie Orts- und Zeitangaben (Satzanfang oder -ende).
+- Satz 22 („Il pleuvait. (hier, fortement)“) wurde vereinfacht zu „Hier, il pleuvait ___“ mit fortement.
+- Satz 30 („le matin, habituellement“) wurde vereinfacht zu „Le matin, elle mange ___ une pomme“.
+- s'asseoir: beide Formen (assieds / assois) werden akzeptiert.
+- Vokabeln: Bei „prêt, e“ gelten prêt/prête, bei Plural-Angaben genügt der Singular, Genus-Markierungen (m./f./fam) werden nicht abgefragt.
