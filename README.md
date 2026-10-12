@@ -6,7 +6,11 @@ Eine Lern-WebApp für Schüler, um sich gezielt auf Tests und Prüfungen in der 
 
 ✅ **MVP (Release 1):** Prüfung Französisch, 2. HMS, 23.10.2026
 
-## Starten
+## Online
+
+🌐 **https://c-vti.github.io/FeedMyBrain/**. Wird bei jedem Push auf `main` automatisch neu gebaut (GitHub Actions).
+
+## Lokal starten
 
 Voraussetzung: [Node.js](https://nodejs.org) (LTS-Version) ist installiert.
 
