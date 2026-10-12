@@ -17,7 +17,9 @@ FeedMyBrain ist eine Lern-WebApp für Schüler zur Vorbereitung auf Tests und Pr
 ### 3.1 MVP (Release 1)
 
 - Fach: **Französisch**, 2. HMS
-- Prüfung: siehe [material-analyse.md](material-analyse.md) (Vokabeln, unregelmäßige Verben, Steigerung, Adverbien)
+- Prüfung: **Freitag, 23.10.2026**. Inhalte siehe [material-analyse.md](material-analyse.md) (Vokabeln, unregelmäßige Verben, Steigerung, Adverbien)
+- Gewichtung: etwa **50 % Vokabeln, 50 % Grammatik**
+- Vokabeln werden nur **Deutsch → Französisch** abgefragt, **immer mit Artikel**
 - Lernzeitraum: 12.10. bis zum Tag vor der Prüfung. Am Prüfungstag wird nicht mehr gelernt.
 
 ### 3.2 Später (neue Releases)
@@ -40,7 +42,8 @@ FeedMyBrain ist eine Lern-WebApp für Schüler zur Vorbereitung auf Tests und Pr
 | F-08 | Übungstyp Satz bauen (Wortbausteine in richtige Reihenfolge bringen) | Soll |
 | F-09 | Übungstyp Paare zuordnen | Soll |
 | F-10 | Sofortiges Feedback mit richtiger Lösung und kurzer Begründung | Muss |
-| F-11 | Lernplan aus Prüfungsdatum, Themen und 30 Min./Tag; freie Tage wählbar | Muss |
+| F-11 | Lernplan aus Prüfungsdatum, Themen und 30 Min./Tag; feste freie Wochentage wählbar (Standard: Donnerstag) | Muss |
+| F-11a | Jokertage: zusätzliche freie Tage, die nur angeboten werden, wenn der Plan es zulässt (siehe Kapitel 6a) | Soll |
 | F-12 | Adaptiver Lernplan: verpasste Tage werden nachgeholt, schwache Themen öfter wiederholt, solange genügend Zeit bleibt | Soll |
 | F-13 | Lernfortschritt pro Benutzer und Prüfung speichern | Muss |
 | F-14 | Falsch beantwortete Aufgaben gezielt wiederholen | Muss |
@@ -74,6 +77,22 @@ FeedMyBrain ist eine Lern-WebApp für Schüler zur Vorbereitung auf Tests und Pr
 | Abzeichen | z. B. „Verb-Bezwinger“ (alle Verben gemeistert), „Perfektionist“ (Lektion ohne Fehler), „Frühaufsteher“ | Kann |
 | Boss-Level | Die Probeprüfung am Ende als „Boss“ mit Zeitlimit | Kann |
 
+Entscheidung: Alle Elemente werden umgesetzt.
+
+## 6a. Lernplan (MVP)
+
+- Lerntage: alle Tage vom Start bis zum Tag vor der Prüfung, ohne die festen freien Wochentage
+- Tageslektion etwa 30 Min. Der Mix aus Vokabeln und Grammatik orientiert sich an der Gewichtung 50:50.
+- Reihenfolge: zuerst neue Inhalte einführen, dann zunehmend wiederholen (schwache Themen zuerst). Der letzte Lerntag ist die Probeprüfung (Boss-Level).
+- **Jokertag:** Der Schüler kann einen Lerntag freinehmen, ohne die Streak zu verlieren. Ein Joker ist nur verfügbar, wenn die verbleibenden Lerntage für den restlichen Stoff reichen. Der Plan wird danach neu verteilt.
+- **Verpasster Tag ohne Joker:** Die Streak wird zurückgesetzt, und der Stoff wird auf die restlichen Tage verteilt.
+
+Beispiel für die Prüfung am 23.10. mit freiem Donnerstag:
+
+| Mo 12. | Di 13. | Mi 14. | Do 15. | Fr 16. | Sa 17. | So 18. | Mo 19. | Di 20. | Mi 21. | Do 22. |
+|---|---|---|---|---|---|---|---|---|---|---|
+| Lernen | Lernen | Lernen | frei | Lernen | Lernen | Lernen | Lernen | Lernen | Lernen | frei (?) |
+
 ## 7. Lernmaterial
 
 - Quelle: Fotos und PDFs der Lernziele und des Unterrichtsmaterials in `material/<datum>-<fach>/`
@@ -82,11 +101,7 @@ FeedMyBrain ist eine Lern-WebApp für Schüler zur Vorbereitung auf Tests und Pr
 
 ## 8. Offene Fragen
 
-1. Prüfungsdatum: 23.10. (Chat) oder 26.10. (Ordnername)?
-2. Gibt es ein Lernzielblatt bzw. einen Hinweis der Lehrperson, wie die Prüfung gewichtet und aufgebaut ist?
-3. Vokabeln: Abfragerichtung (DE→FR, FR→DE, beides)? Muss der Artikel immer mitgelernt werden?
-4. Welche freien Tage gibt es (z. B. Wochenende)?
-5. Gamification: Welche Elemente sollen umgesetzt werden?
+1. Der Donnerstag 22.10. ist der Tag vor der Prüfung. Soll er frei sein, oder soll dort die Probeprüfung stattfinden?
 
 ## 9. Entscheidungen
 
@@ -102,3 +117,7 @@ FeedMyBrain ist eine Lern-WebApp für Schüler zur Vorbereitung auf Tests und Pr
 | 2026-10-12 | Lernzeit 30 Min./Tag, freie Tage möglich, adaptiver Plan |
 | 2026-10-12 | Sprachausgabe als „nice to have“ ausprobieren |
 | 2026-10-12 | Schulmaterial darf ins Repo (Repo ist privat) |
+| 2026-10-12 | Prüfungsdatum 23.10.2026; Gewichtung 50 % Vokabeln, 50 % Grammatik |
+| 2026-10-12 | Vokabeln nur DE → FR, immer mit Artikel |
+| 2026-10-12 | Donnerstag ist ein fester freier Tag; zusätzliche freie Tage per Jokertag, wenn der Plan es zulässt |
+| 2026-10-12 | Alle vorgeschlagenen Gamification-Elemente werden umgesetzt |

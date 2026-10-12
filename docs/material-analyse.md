@@ -1,6 +1,6 @@
 # Materialanalyse – Französisch, 2. HMS
 
-Quelle: `material/2026-10-26-FR/` (12 Fotos, 1 Vokabelliste)
+Quelle: `material/2026-10-23-FR/` (12 Fotos, 1 Vokabelliste)
 Analysiert: 2026-10-12
 
 ## Übersicht der Themen
