@@ -91,7 +91,9 @@ Beispiel für die Prüfung am 23.10. mit freiem Donnerstag:
 
 | Mo 12. | Di 13. | Mi 14. | Do 15. | Fr 16. | Sa 17. | So 18. | Mo 19. | Di 20. | Mi 21. | Do 22. |
 |---|---|---|---|---|---|---|---|---|---|---|
-| Lernen | Lernen | Lernen | frei | Lernen | Lernen | Lernen | Lernen | Lernen | Lernen | frei (?) |
+| Lernen | Lernen | Lernen | frei | Lernen | Lernen | Lernen | Lernen | Lernen | Probeprüfung | frei |
+
+→ 9 Lerntage (≈ 4,5 h), Probeprüfung am Mi 21.10.
 
 ## 7. Lernmaterial
 
@@ -101,7 +103,7 @@ Beispiel für die Prüfung am 23.10. mit freiem Donnerstag:
 
 ## 8. Offene Fragen
 
-1. Der Donnerstag 22.10. ist der Tag vor der Prüfung. Soll er frei sein, oder soll dort die Probeprüfung stattfinden?
+1. Hosting: GitHub Pages oder Alternative (siehe Chat)
 
 ## 9. Entscheidungen
 
@@ -121,3 +123,4 @@ Beispiel für die Prüfung am 23.10. mit freiem Donnerstag:
 | 2026-10-12 | Vokabeln nur DE → FR, immer mit Artikel |
 | 2026-10-12 | Donnerstag ist ein fester freier Tag; zusätzliche freie Tage per Jokertag, wenn der Plan es zulässt |
 | 2026-10-12 | Alle vorgeschlagenen Gamification-Elemente werden umgesetzt |
+| 2026-10-12 | Der 22.10. bleibt frei; die Probeprüfung findet am letzten Lerntag statt (21.10.) |
